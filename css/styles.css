@@ -25,26 +25,24 @@ body {
     text-align: center;
   }
 /*Header--------------------------------------------------*/
+
 header{
   width: 100%;
   background-color: #725e4d;
 }
-
-header h1{
+.header--title__nombre{
   font-size: 80px;
   margin: 0;
   text-align: center;
 }
-
-header ul.menu{
+.header--nav__menu{
   display: flex;
   justify-content: space-between;
   list-style-type: none;
   padding: 0;
   margin-bottom: 0;
 }
-
-header ul.menu li{
+.header--nav__menu li{
   width: 20%;
   background-color: #999797;
   border: 3px #424c4a;
@@ -52,28 +50,27 @@ header ul.menu li{
   text-align: center;
   padding: 10px 0px;
 }
-header ul.menu li:hover{
 
+.header--nav__menu li:hover{
   background-color: #2d2724;
-  
-
 }
 
-header ul.menu li a{
+.header--nav__menu a{
   text-decoration: none;
   color: black;
   font-size: 20px;
+
 }
-
-header ul.menu li a:hover{
-
+.header--nav__menu a:hover{
   color: #b8b3b0;
-
 }
 
 /*Inicio--------------------------------------------------*/
-
-.pagInicio img{
+.main{
+  display:grid;
+  grid-template-columns: 1fr;
+} 
+.main--pagInicio__contenido2 img{
   border-radius: 100px;
   margin-bottom: 30px;
 }
