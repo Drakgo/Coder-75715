@@ -6,7 +6,7 @@
     font-style: normal;
   }
 
-body {
+body.conteinerVikings {
     height: 100%;
     width: 100%;
     min-height: 100vh;
@@ -35,7 +35,7 @@ header{
   margin: 0;
   text-align: center;
 }
-.header--nav__menu{
+/* .header--nav__menu{
   display: flex;
   justify-content: space-between;
   list-style-type: none;
@@ -63,7 +63,7 @@ header{
 }
 .header--nav__menu a:hover{
   color: #b8b3b0;
-}
+} */
 
 /*Inicio--------------------------------------------------*/
 .main{
