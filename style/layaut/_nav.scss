@@ -1,0 +1,28 @@
+.navbar-nav{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    left: 0;
+    margin-bottom: 0;
+  }
+  .navbar-nav li{
+    width: 20%;
+    background-color: #999797;
+    border: 3px #424c4a;
+    border-radius: 2px;
+    text-align: center;
+    padding: 10px 0px;
+  }
+  .navbar-nav li:hover{
+    background-color: #2d2724;
+  }
+  
+  .navbar-nav li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+  }
+  
+  .navbar-nav li a:hover{
+    color: #b8b3b0;
+   }

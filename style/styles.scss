@@ -1,0 +1,12 @@
+
+/* LAYAUT */
+@use "./layaut/inicio.scss";
+@use "./layaut/header.scss";
+@use "./layaut/nav.scss";
+
+/* PAGES */
+@use "./pages/index.scss";
+@use "./pages/actividades.scss";
+@use "./pages/quienesSomos.scss";
+@use "./pages/noticias.scss";
+@use "./pages/tienda.scss";
